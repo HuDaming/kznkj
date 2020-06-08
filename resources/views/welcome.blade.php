@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{ env('APP_NAME') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -84,9 +84,11 @@
                     科之能科技有限公司
                 </div>
 
-                <div class="links">
-                    网站搭建中...
-{{--                    <a href="https://laravel.com/docs">浙公网安备 33010602009975 号</a>--}}
+                <div style="color: rgb(137, 137, 140);font-size:0.9em;" class="rm-link-color">
+                    <p>
+                        <a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备20047965号</a>
+                        由 <a href="https://user.qzone.qq.com/40834106/infocenter" target="_blank" style="color: inherit;">Apple情绪化</a> 设计和编码 <span style="color: #e27575;font-size: 14px;">❤</span>
+                    </p>
                 </div>
             </div>
         </div>
